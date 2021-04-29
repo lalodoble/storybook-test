@@ -1,0 +1,17 @@
+section.features {
+	padding-bottom: 4rem;
+}
+
+section.features .__featuresList {
+	display: grid;
+	gap: 2rem;
+	margin-top: -6rem;
+	grid-template-rows: repeat(3, 1fr);
+}
+
+@media(min-width: 640px) {
+	section.features .__featuresList {
+		grid-template-rows: auto;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}

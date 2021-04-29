@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './card.css';
+
+import './card.module.css';
 
 export function Card({ icon, title, text, ...props }) {
 	return (
-		<div className="card">
+		<div className={"card"}>
 			<img src={icon} alt={title} />
 			<h2>{title}</h2>
 			<p>{text}</p>

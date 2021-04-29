@@ -7,5 +7,5 @@ export default {
   component: Page,
 };
 
-const Template = (args) => <Page {...args} />;
+const Template = (args) => <Page />;
 export const Main = Template.bind({});
