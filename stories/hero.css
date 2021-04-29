@@ -1,0 +1,19 @@
+section.hero {
+	min-height: 50vh;
+	background: #999;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	padding: 2rem 0 8rem;
+}
+
+section.hero * {
+	color: #fff;
+}
+
+section.hero h1 {
+	font-size: 4.5rem;
+	line-height: 1em;
+	font-weight: 400;
+	margin: 0 0 1rem 0;
+}

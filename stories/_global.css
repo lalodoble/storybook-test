@@ -1,0 +1,26 @@
+:root {
+    font-size: 15px;
+}
+
+* {
+    font-family: 'Open Sans';
+}
+
+body {
+    background: #fafafa;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin: 0;
+}

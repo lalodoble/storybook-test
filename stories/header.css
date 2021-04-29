@@ -1,0 +1,12 @@
+header {
+  background: #fff;
+}
+
+header .container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.logo {
+  max-width: 200px;
+}
